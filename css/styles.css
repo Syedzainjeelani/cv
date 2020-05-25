@@ -99,19 +99,25 @@ body {
 .profile-div{
   width: 50%;
   margin: 7% auto 7% auto;
+  text-align: center;
+}
+
+.profile-hi-div{
+  width: 50%;
+  margin: 0 auto 7% auto;
+  display: flex;
 }
 
 .profile-img{
-  width: 20%;
-  border-radius: 100%;
-  margin-right: 5%;
+  width: 50%;
+  border-radius: 20px;
   float: left;
 }
 
-.profile-text-div{
-  padding-top:4%;
-  text-align: center;
+.hi{
+  margin: 20% 0 auto 10%;
 }
+
 
 .skill-row{
   width: 50%;
@@ -132,7 +138,6 @@ body {
 }
 
 .skills{
-  /* margin-top: 5%; */
   margin: 5% auto 0 auto;
 }
 
